@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google-signin-client_id" content="899861996008-go10pg1e59a7oavantj311dgs3a0mpan.apps.googleusercontent.com">
+	<title>Skill Test</title>
+	<link rel="stylesheet" type="text/css" href="styleLogin.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="login-form">
+		<div class="container">
+			<div class="logo">KotaKode</div>
+			<div class="form">
+				<div class="user">
+					<div class="text">
+						<h3>Email / Username</h3>
+					</div>
+					<div class="text-box">
+						<input type="text" name="Username">
+					</div>
+				</div>
+				<div class="password">
+					<div class="text">
+						<h3>Password</h3>
+					</div>
+					<div class="text-box">
+						<input type="text" name="Password">
+					</div>
+					
+				</div>
+				<div class="look-pass-btn">
+					
+					<i class="fa fa-eye" aria-hidden="true"></i>
+				</div>
+
+				<div class="forgot-pass">
+					<a href="#">Lupa Password?</a>
+				</div>
+				<input type="submit" value="Masuk">
+				<p>atau masuk dengan</p>
+				
+				<div class="alternate-login">
+					<a href="#" class="btn google" id="google-login"><img src="img/google.png"></a>
+					
+	          		<a href="#" class="btn facebook"><img src="img/facebook.png"></a>
+					<p>Belum Memiliki Akun? <a href="#">Daftar</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="login.js"></script>
+
+</body>
+</html>
